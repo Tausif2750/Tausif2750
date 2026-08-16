@@ -1,0 +1,4 @@
+import Section from './Section'
+const fields = [['Name', 'text', 'data[Name]', 'Enter your name'], ['Email', 'email', 'data[Email]', 'Enter your email'], ['Number', 'number', 'data[Number]', 'Enter your number'], ['message', 'text', 'data[Message]', 'Enter your message']]
+function Contact() { return <Section id="contact" title="Contact"><form action="https://sheetdb.io/api/v1/ks0cp9wx6wlrs" method="post" className="mx-auto max-w-lg rounded-xl bg-black/30 p-5 sm:p-8">{fields.map(([label, type, name, placeholder]) => <label key={name} className="mb-4 block text-sm sm:text-base">{label}<input type={type} name={name} placeholder={placeholder} required className="mt-1 block w-full rounded-md border-0 p-3 text-sm text-black outline-none sm:text-base" /></label>)}<button type="submit" className="w-full rounded-md bg-cyan-300 p-3 font-semibold text-black transition hover:bg-cyan-400">Submit</button></form></Section> }
+export default Contact
