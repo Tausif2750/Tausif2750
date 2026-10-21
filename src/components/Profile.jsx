@@ -1,4 +1,5 @@
 import profilePhoto from "../assets/whiteGPT.jpeg";
+// resume update by Owner
 function Profile() {
   return (
     <section
@@ -15,7 +16,7 @@ function Profile() {
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-3 lg:justify-start">
           <a
-            href="https://drive.google.com/drive/folders/1lJHbMStjs0M01vhPVBEVws7dWwoh0tls"
+            href="https://drive.google.com/file/d/1MPTx7sADLVjw1CqYkgM0YvDZy494jN-r/view?usp=drive_link"
             target="_blank"
             rel="noreferrer"
             className="rounded-md bg-cyan-300 px-5 py-3 font-bold text-black transition hover:bg-cyan-400"
